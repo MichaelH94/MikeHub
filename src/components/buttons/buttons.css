@@ -1,0 +1,40 @@
+.buttonArea {
+  width: 90vw;
+  min-height: 60vh;
+  max-height: 70vh;
+  margin: auto;
+  overflow-y: auto;
+}
+
+.btn {
+    width: 300px;
+    height: 120px;
+    border: 2px solid black;
+    margin: 3px auto;
+    background-color: #4B4A4A; 
+    color: #fff;
+    text-shadow: 1px 0 0 #111, 0 -1px 0 #111, 0 1px 0 #111, -1px 0 0 #111;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.8s ease;
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 40px;
+    text-align: left;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.btn[type="MAL"] {
+    background-image: url("MAL.png");
+}
+
+.btn[type="TWT"] {
+    background-image: url("TWT.png");
+}
+
+.btn[type="RYM"] {
+    background-image: url("RYM.png");
+}
