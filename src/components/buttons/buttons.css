@@ -4,6 +4,7 @@
   max-height: 70vh;
   margin: auto;
   overflow-y: auto;
+  padding-bottom: 10vh;
 }
 
 .btn {
@@ -27,6 +28,26 @@
     background-position: right;
 }
 
+.btn:hover {
+    background-color: #DDDDDD; 
+    opacity: 90%;
+    border: 2px solid black;
+    color: black;
+    text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
+  }
+  
+.btn:focus {
+    background-color: #DDDDDD !important;
+    border: 2px solid black !important;
+}
+
+.btn:active, .btn:focus {
+   outline: none !important;
+   box-shadow: none !important;
+   color: black;
+   text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
+}
+
 .btn[type="MAL"] {
     background-image: url("MAL.png");
 }
@@ -37,4 +58,30 @@
 
 .btn[type="RYM"] {
     background-image: url("RYM.png");
+}
+
+.btn[type="DISC"] {
+    background-image: url("DISCORD.png");
+}
+
+.btn[type="RED"] {
+    background-image: url("RED.png");
+}
+
+.btn[type="PORT"] {
+    background-image: url("PORT.png");
+}
+
+.btn[type="CASH"] {
+    background-image: url("CASH.png");
+}
+
+.btn[type="TTV"] {
+    background-image: url("TTV.png");
+    background-size: 30%;
+}
+
+.btn[type="YT"] {
+    background-image: url("YT.png");
+    background-size: 35%;
 }

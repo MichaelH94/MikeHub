@@ -8,15 +8,16 @@ class Buttons extends Component {
     render() {
         return ( 
             <div className="buttonArea">
-                <Button>Discord</Button>
+                <Button type="DISC">Discord</Button>
                 <Button type="MAL">MyAnimeList</Button>
                 <Button type="TWT">Twitter</Button>
-                <Button type="RYM">RateYourMusic
-                </Button>
-                <Button>Blog</Button>
-                <Button>Portfolio</Button>
-                <Button>Hello</Button>
-                <Button>Hello</Button>
+                <Button type="RYM">RateYourMusic</Button>
+                <Button type="WEB">Blog</Button>
+                <Button type="PORT">Portfolio</Button>
+                <Button type="RED">Reddit</Button>
+                <Button type="YT">YouTube</Button>
+                <Button type="TTV">Twitch</Button>
+                <Button type="GIT">Github</Button>
             </div>
         )
     }
