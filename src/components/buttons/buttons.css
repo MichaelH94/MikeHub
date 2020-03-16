@@ -1,11 +1,13 @@
 .buttonArea {
-  width: 90vw;
-  min-height: 60vh;
+  max-width: 90vw;
   max-height: 70vh;
   margin: auto;
-  overflow-y: auto;
-  padding-bottom: 10vh;
 }
+
+.buttonArea a, a:hover, a:active, a:visited, a:link {
+    text-decoration: none;
+}
+
 
 .btn {
     width: 300px;
@@ -84,4 +86,23 @@
 .btn[type="YT"] {
     background-image: url("YT.png");
     background-size: 35%;
+}
+
+.btn[type="GIT"] {
+    background-image: url("GIT.png");
+    background-size: 35%;
+}
+
+.btn[type="WEB"] {
+    background-image: url("WEB.png");
+}
+
+@media only screen and (max-width: 768px) {
+    .buttonArea {
+        padding-top: 6px;
+        overflow: scroll;
+        font-size: 12px;
+        max-height: 50vh;
+    }
+
 }

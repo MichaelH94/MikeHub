@@ -1,0 +1,10 @@
+.appFooter {
+    opacity: 0.5;
+    width: 100vw;
+    color: lightgray;
+
+    height: 5vh;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
